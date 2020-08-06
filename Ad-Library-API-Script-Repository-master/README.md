@@ -1,10 +1,10 @@
 # Ads-Library-API-Script-Repository
 Ads-Library-API-Script-Repository is a set of code examples to help user/researchers understand how the Facebook Ads Library API works. It also provides a simple command-line interface(CLI) for users to easily use the Facebook Ads Library API.
 
-## Examples
+## CORRECTED Examples
 Here's an example on how to use the CLI:
 
-    $ python fb_ads_library_api_cli.py -t {access_token} -f 'page_id,ad_snapshot_url,funding_entity,ad_delivery_start_time' -c 'CA' -s '.' -v count
+    $ python fb_ads_library_api_cli.py -t {access_token} -f page_id,ad_snapshot_url,funding_entity,ad_delivery_start_time -c 'CA' -s '.' -v count
 
 It count the number of active polictical ads that are running in CA(Canada);
 
